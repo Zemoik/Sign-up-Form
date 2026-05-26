@@ -1,0 +1,109 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.outer{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-side{
+    display: flex;
+    width: 35%;
+    background-image: url(Images/halie-west-25xggax4bSA-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}  
+
+.left-side p{
+    margin-top: auto;
+    color: white;
+    padding: 16px;
+}
+
+.right-side{
+    flex: 1;
+    padding: 60px 80px;
+}
+
+.intro p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+h2{
+    color: #596D48;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    font-size: 1.3rem;
+}
+
+.form-row{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.form-group{
+    flex: 1;
+}
+
+label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 4px;
+}
+
+input{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #E5E7EB; 
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus{
+    border-color:#4A90D9 ;
+    box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.3) ;
+    outline: none;
+}
+
+input[type="password"]:invalid{
+    border-color: #E03E3E;
+}
+
+.button{
+    background-color: #596D48 ;
+    color: white;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.button:hover{
+    background-color:#4a5e3a ;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 24px 0;
+}
+
+.form-footer a{
+    color: #596D48;
+}
